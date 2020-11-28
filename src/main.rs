@@ -1,5 +1,6 @@
 mod yahtzee;
 mod scorecard;
+mod test;
 
 use crate::yahtzee::{new_game, roll, score_roll};
 

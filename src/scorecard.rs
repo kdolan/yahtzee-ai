@@ -34,3 +34,11 @@ pub fn new_scorecard() -> Scorecard{
         yahtzee_bonus_count: 0
     }
 }
+
+pub struct DieCountScores{
+    pub is_two_of_a_kind: bool,
+    pub is_three_of_a_kind: bool,
+    pub is_four_of_a_kind: bool,
+    pub is_five_of_a_kind: bool,
+    pub is_full_house: bool,
+}
